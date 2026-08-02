@@ -1,0 +1,80 @@
+.aurora-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background: radial-gradient(ellipse 120% 80% at 50% -10%, #1a1230 0%, #0A0E17 55%, #060810 100%);
+}
+
+.aurora-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(70px);
+  opacity: 0.55;
+  will-change: transform;
+}
+
+.blob-violet {
+  width: 560px;
+  height: 560px;
+  top: -140px;
+  left: -80px;
+  background: radial-gradient(circle, #A855F7 0%, transparent 65%);
+  animation: driftA 20s ease-in-out infinite;
+  opacity: 0.42;
+}
+
+.blob-teal {
+  width: 600px;
+  height: 600px;
+  top: 15%;
+  right: -200px;
+  background: radial-gradient(circle, #22D3EE 0%, transparent 65%);
+  animation: driftB 24s ease-in-out infinite;
+  opacity: 0.33;
+}
+
+.blob-gold {
+  width: 460px;
+  height: 460px;
+  bottom: -160px;
+  left: 25%;
+  background: radial-gradient(circle, #E93DE3 0%, transparent 65%);
+  animation: driftC 28s ease-in-out infinite;
+  opacity: 0.3;
+}
+
+@keyframes driftA {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(90px, 70px) scale(1.15); }
+}
+@keyframes driftB {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-80px, 50px) scale(1.12); }
+}
+@keyframes driftC {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(60px, -60px) scale(1.2); }
+}
+
+.starfield {
+  position: absolute;
+  inset: 0;
+}
+
+.star {
+  position: absolute;
+  border-radius: 50%;
+  background: #fff;
+  animation: twinkle ease-in-out infinite;
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.1; }
+  50% { opacity: 0.55; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .aurora-blob, .star { animation: none; opacity: 0.4; }
+}
