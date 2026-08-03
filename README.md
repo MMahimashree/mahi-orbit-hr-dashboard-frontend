@@ -1,8 +1,6 @@
 # 🚀 Mahi Orbit HR Dashboard - Frontend
 
-A modern HR Dashboard built using React.js for managing employee records efficiently through an interactive user interface.
-
----
+A Full Stack Employee Management System built using React.js, Spring Boot, PostgreSQL and REST APIs.
 
 ## ✨ Features
 
