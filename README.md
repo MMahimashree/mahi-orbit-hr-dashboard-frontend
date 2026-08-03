@@ -68,10 +68,14 @@ Update the API Base URL before deployment.
 ---
 
 ## 📸 Screenshots
+<img width="1335" height="617" alt="image" src="https://github.com/user-attachments/assets/720c65fd-953c-4035-b36c-216fe58693e5" />
+<img width="1349" height="621" alt="image" src="https://github.com/user-attachments/assets/4e74d6f2-44d7-4a1d-8727-7e907271c085" />
 
-<img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/a004cf6c-ad15-485a-b098-5a15de46addc" />
-<img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/4aa09c35-099e-4770-83f8-90589fe571b6" />
-<img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/2c9df99f-f57c-4279-926f-56b6f192ad62" />
+<img width="1340" height="631" alt="image" src="https://github.com/user-attachments/assets/a7723d97-0dbb-4bd3-bd0d-9ac4eebe4e16" />
+<img width="615" height="492" alt="image" src="https://github.com/user-attachments/assets/0f3ea228-46c6-4ac4-bfd2-09a724b7b1f3" />
+
+
+
 
 
 ---
