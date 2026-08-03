@@ -69,7 +69,10 @@ Update the API Base URL before deployment.
 
 ## 📸 Screenshots
 
-(Add screenshots here after deployment)
+<img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/a004cf6c-ad15-485a-b098-5a15de46addc" />
+<img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/4aa09c35-099e-4770-83f8-90589fe571b6" />
+<img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/2c9df99f-f57c-4279-926f-56b6f192ad62" />
+
 
 ---
 
