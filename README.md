@@ -1,16 +1,80 @@
-# React + Vite
+# 🚀 Mahi Orbit HR Dashboard - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern HR Dashboard built using React.js for managing employee records efficiently through an interactive user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- Dashboard with employee statistics
+- View all employees
+- Add new employee
+- Update employee details
+- Delete employee
+- Search employees
+- Department-wise employee information
+- Salary analytics
+- Responsive user interface
+- REST API integration
+- Error handling and form validation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- Axios
+- Vite
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── assets/
+ ├── components/
+ ├── pages/
+ ├── services/
+ ├── App.jsx
+ └── main.jsx
+```
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/MMahimashree/mahi-orbit-hr-dashboard-frontend.git
+
+cd mahi-orbit-hr-dashboard-frontend
+
+npm install
+
+npm run dev
+```
+
+---
+
+## 🔗 Backend
+
+This frontend communicates with the Spring Boot REST API.
+
+Update the API Base URL before deployment.
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here after deployment)
+
+---
+
+## 👩‍💻 Author
+
+**Mahimashree**
+
+GitHub: https://github.com/MMahimashree
